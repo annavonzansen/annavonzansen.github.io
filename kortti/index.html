@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8"> 
+        <title>Hyvää uutta vuotta!</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://cacpg.herokuapp.com/js/demos/snowfall.min.js"></script>
+<script>
+$(document).ready(function() {
+    snowFall.snow($("section"), {
+        minSize: 1,
+        maxSize: 8,
+        round: true,
+        minSpeed: 1,
+        maxSpeed: 3,
+        flakeCount: 120
+    });
+});
+</script>
+    </head>
+    <body>
+    <section>
+    <!-- Add your heading below this line -->
+    <h1>Hyvää uutta vuotta! 
+    <br>Guten Rutsch ins neue Jahr! 
+    <br>Gott nytt år!</h1>
+    <h2>toivottaa 
+    <br>wünscht 
+    <br>önskar Anna</h2>
+    <img src="https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-9xjis/images/snowman.png">
+    <!-- I'm a comment! You won't see me on the page! -->
+    </section>
+    </body>
+</html>
